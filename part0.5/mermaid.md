@@ -13,4 +13,4 @@ Note over browser: browser starts executing js-code that requests JSON data from
 browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json;
 server-->>browser: [{ content: "HTML is easy", date: "2019-05-23" }, ...];
 
-note over browser: browser executes the event handler that renders notes to display;
+note over browser: browser executes the event handler <br> that renders notes to display;
