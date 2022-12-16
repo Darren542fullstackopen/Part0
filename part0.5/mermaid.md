@@ -1,5 +1,5 @@
 ```mermaid
-sequenceDiagram FormSubmit
+sequenceDiagram 
 browser->>server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
 server-->>browser: Redirect to /exampleapp/notes
 browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
